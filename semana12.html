@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 12 - Cuaderno de Aprendizaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background-color: #111;
+            padding: 1.5rem;
+            border-left: 5px solid #FFD700;
+        }
+
+        .section h2 {
+            color: #FFD700;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #e6c200;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Semana 12: Gestión de Formularios, Administración de Django y Control de Sesiones</h1>
+
+        <div class="section">
+            <h2>Descripción de los temas aprendidos</h2>
+            <p>
+                En la duodécima semana del curso, se profundizó en funcionalidades avanzadas del framework Django relacionadas con la gestión de formularios, el panel de administración y el uso de middleware para el manejo de sesiones y autenticaciones. Estos elementos son esenciales para desarrollar aplicaciones web seguras, dinámicas e interactivas.
+
+Los temas desarrollados fueron los siguientes:
+
+Gestión de Formularios en Django:
+
+Creación de formularios personalizados mediante clases heredadas de forms.Form y forms.ModelForm.
+
+Diseño de interfaces de entrada utilizando plantillas HTML conectadas con formularios Django.
+
+Validación de campos usando validadores predeterminados y personalizados, asegurando la integridad y sanitización de datos antes de ser procesados o almacenados.
+
+Implementación de formularios seguros contra ataques como Cross-Site Scripting (XSS) y Cross-Site Request Forgery (CSRF) mediante tokens.
+
+Django Admin:
+
+Introducción al poderoso sistema administrativo integrado que proporciona Django.
+
+Registro de modelos en el panel admin usando admin.site.register().
+
+Personalización del panel de administración: definición de campos visibles, filtros, búsquedas, campos calculados, y formularios propios.
+
+Mejoras en la experiencia del administrador para facilitar la gestión de contenidos del sitio web.
+
+Middleware y Sesiones:
+
+Revisión del concepto de middleware como componentes que procesan peticiones y respuestas en Django. Ejemplos: autenticación, control de sesiones, y restricción de accesos.
+
+Uso de sesiones (request.session) para almacenar información persistente entre múltiples peticiones del mismo usuario.
+
+Implementación de sistemas de autenticación y autorización para proteger rutas y garantizar que solo los usuarios adecuados accedan a ciertos recursos.
+
+Configuración de permisos y restricciones usando decoradores (@login_required) y clases de vistas protegidas.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Qué aprendí?</h2>
+            <p>
+                Aprendí a gestionar formularios de forma segura y estructurada dentro de Django, aplicar reglas de validación, y conectar estos formularios con los modelos y vistas. También comprendí la importancia del sistema admin como herramienta de mantenimiento interno, y el rol del middleware en la seguridad y gestión de estados de usuario a través de sesiones.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Cómo lo aprendí?</h2>
+            <p>
+                El aprendizaje se llevó a cabo mediante una combinación de clases teóricas y ejercicios prácticos. Se desarrollaron formularios reales con validación personalizada, se configuró y personalizó el panel de Django admin, y se simularon flujos de autenticación de usuarios para entender el manejo interno de sesiones. Este enfoque permitió consolidar conocimientos aplicables al desarrollo profesional de aplicaciones web robustas y seguras.
+            </p>
+        </div>
+
+        <a class="download-btn" href="Archivos/Semana12.pdf" download>Descargar clase de la semana</a>
+    </div>
+</body>
+</html>

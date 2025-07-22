@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 13 - Cuaderno de Aprendizaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background-color: #111;
+            padding: 1.5rem;
+            border-left: 5px solid #FFD700;
+        }
+
+        .section h2 {
+            color: #FFD700;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #e6c200;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Semana 2: Diseño Web con HTML, XML y CSS</h1>
+
+        <div class="section">
+            <h2>Descripción de los temas aprendidos</h2>
+            <p>
+                Durante la décima tercera semana del curso, se abordó el diseño y desarrollo de APIs RESTful utilizando Django y Django REST Framework (DRF). Esta etapa es clave en la construcción de aplicaciones web modernas, ya que permite la comunicación entre el backend y otros servicios o interfaces frontend a través de servicios HTTP estándar.
+
+Los conceptos clave abordados fueron:
+
+Introducción al paradigma REST:
+
+Se comprendió la arquitectura REST (Representational State Transfer) y sus principios fundamentales: uso de métodos HTTP (GET, POST, PUT, DELETE), recursos identificables mediante URIs, y comunicación sin estado.
+
+Se introdujo el concepto de APIs de Hipermedios y HATEOAS (Hypermedia As The Engine Of Application State), que sugiere que las interacciones con la API deben estar guiadas por enlaces dinámicos incluidos en las respuestas.
+
+Serialización de modelos y datos:
+
+Se utilizaron serializadores (serializers.ModelSerializer) para transformar modelos Django en formatos intercambiables como JSON o XML.
+
+Se exploró la posibilidad de serializar otras fuentes de datos no estructurados, como diccionarios u objetos externos.
+
+Filtrado, paginación y control de uso:
+
+Se configuró el filtrado automático de resultados usando django_filters, así como paginación con PageNumberPagination y LimitOffsetPagination para optimizar el rendimiento en consultas grandes.
+
+Se introdujeron restricciones temporales y límites de uso (rate limiting) para prevenir abusos y mantener la escalabilidad de la API.
+
+Ruteadores y conjuntos de vistas (viewsets):
+
+Se implementaron ruteadores (routers.DefaultRouter) para simplificar el enrutamiento automático de endpoints.
+
+Se trabajó con conjuntos de vistas genéricas (ModelViewSet) que permiten operaciones CRUD completas con mínima configuración.
+
+Aspectos de seguridad y comunicación externa:
+
+Se revisó el uso de AJAX para realizar llamadas asíncronas desde el frontend hacia la API.
+
+Se configuró la protección contra ataques de falsificación de solicitudes (CSRF) y el Cross-Origin Resource Sharing (CORS) para permitir el consumo de la API desde dominios externos.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Qué aprendí?</h2>
+            <p>
+                Aprendí a construir una API RESTful robusta y escalable usando Django REST Framework, entendiendo tanto sus fundamentos teóricos como su aplicación práctica. También interioricé conceptos clave como la serialización, la gestión eficiente de datos, la seguridad de las APIs y la interoperabilidad con el frontend a través de AJAX.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Cómo lo aprendí?</h2>
+            <p>
+                El aprendizaje fue guiado por explicaciones detalladas del docente, complementadas con laboratorios prácticos donde desarrollamos APIs funcionales conectadas a modelos Django. Se aplicaron técnicas modernas para el diseño profesional de servicios web, asegurando su eficiencia, seguridad y mantenibilidad.
+            </p>
+        </div>
+
+        <a class="download-btn" href="Archivos/Semana13.pdf" download>Descargar clase de la semana</a>
+    </div>
+</body>
+</html>

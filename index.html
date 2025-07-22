@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Académico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>PORTAFOLIO</h2>
+                <span class="nav-subtitle">ACADÉMICO</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sobre-mi" class="nav-link">PERFIL</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#proyectos" class="nav-link">PROYECTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#cuaderno" class="nav-link">CUADERNO</a>
+                </li>               
+                <li class="nav-item">
+                    <a href="#bibliografia" class="nav-link">REFERENCIAS</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>ESPECIALISTA EN CIBERSEGURIDAD</span>
+                </div>
+                <h1 class="hero-name">LEÓN GARCÍA</h1>
+                <h2 class="hero-title">Estudiante de Ingeniería de Sistemas</h2>
+                <div class="hero-line"></div>
+                <p class="hero-description">
+                    Dedicado al desarrollo académico y profesional con un enfoque en la excelencia. 
+                    Especializado en documentar procesos de aprendizaje y crear <span class="highlight">soluciones innovadoras</span> 
+                    que contribuyan al avance del conocimiento en mi campo de estudio.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('sobre-mi')">
+                        <span>EXPLORAR PERFIL</span>
+                    </button>
+
+                    <a href="archivos/CV-LEON.pdf" target="_blank">
+                        <button class="btn btn-secondary">
+                            <span>DESCARGAR CV</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-frame">
+                    <div class="profile-image">
+                        <img src="Fotos/David.jpg" alt="Foto de perfil profesional">
+                    </div>
+                    <div class="profile-border"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PERFIL PROFESIONAL</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Información académica y experiencia</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>TRAYECTORIA ACADÉMICA</h3>
+                        <p>
+                            Actualmente curso la carrera de Ingeniería de Sistemas en la Universidad Nacional del 
+                            Centro del Perú. Mi compromiso con la excelencia académica me ha llevado a explorar 
+                            diversas áreas del conocimiento, manteniendo siempre un enfoque riguroso en la conexión
+                            entre teoría y aplicación práctica.
+                        </p>
+                        
+                        <div class="info-section">
+                            <h4>FORMACIÓN ACADÉMICA</h4>
+                            <ul class="professional-list">
+                                <li>
+                                    <strong>INGENIERÍA DE SISTEMAS</strong>
+                                    <span>UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ • EN CURSO</span>
+                                </li>
+                                <li>
+                                    <strong>INGLÉS BRITÁNICO</strong>
+                                    <span>BRITÁNICO - LIMA • 20/02/201</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="info-section">
+                            <h4>CERTIFICADOS PROFESIONALES</h4>
+                            <ul class="professional-list">
+                                <li>
+                                    <strong>POWER BI PROFESIONAL</strong>
+                                    <span>DAXUS LATAM • 19/06/2025</span>
+                                </li>
+                                <li>
+                                    <strong>BIZAGI MODELER</strong>
+                                    <span>BIZAGI • 15/05/2024</span>
+                                </li>
+                                <li>
+                                    <strong>ISO 27001 - CIBERSEGURIDAD</strong>
+                                    <span>HACKER MENTOR • 30/04/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CIBERSEGURIDAD E INTELIGENCIA ARTIFICAL</strong>
+                                    <span>ICTE • 19/04/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - NETWORKING BASIC</strong>
+                                    <span>CISCO • 04/05/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - PYTHON ESSENTIALS 1</strong>
+                                    <span>CISCO • 06/06/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - PYTHON ESSENTIALS 2</strong>
+                                    <span>CISCO • 06/06/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - JUNIOR CYBERSECURITY ANALYST CAREER PATH</strong>
+                                    <span>CISCO • 18/07/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - INTRODUCTION CYBERSECURITY</strong>
+                                    <span>CISCO • 15/06/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - CYBER THREAT MANAGEMENT</strong>
+                                    <span>CISCO • 18/07/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - NETWORK DEFENSE</strong>
+                                    <span>CISCO • 18/07/2024</span>
+                                </li>
+                                <li>
+                                    <strong>CISCO - ETHICAL HACKER</strong>
+                                    <span>CISCO • 11/12/2024</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills">
+                    <div class="skills-card">
+                        <h4>COMPETENCIAS DESARROLLADAS</h4>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <div class="skill-icon">📊</div>
+                                <span>ANÁLISIS CRÍTICO</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🔍</div>
+                                <span>INVESTIGACIÓN</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">📝</div>
+                                <span>DOCUMENTACIÓN</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🤝</div>
+                                <span>LIDERAZGO</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">💻</div>
+                                <span>DESARROLLO WEB</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🔐</div>
+                                <span>CIBERSEGURIDAD</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">📈</div>
+                                <span>TOMA DE DECISIONES</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🧠</div>
+                                <span>PENSAMIENTO ESTRATÉGICO</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🌐</div>
+                                <span>TRABAJO COLABORATIVO</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">⏱️</div>
+                                <span>GESTIÓN DEL TIEMPO</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">🔧</div>
+                                <span>RESOLUCIÓN DE PROBLEMAS</span>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">💡</div>
+                                <span>INNOVACIÓN TECNOLÓGICA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">PROYECTOS DESTACADOS</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Trabajos académicos y profesionales completados</p>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-number">01</div>
+                        <div class="project-image">
+                            <img src="Fotos/Proyecto1.jpg" alt="Proyecto de Investigación">
+                            <div class="project-overlay">
+                                <a href="https://app.powerbi.com/view?r=eyJrIjoiM2Q5MTAwOGQtMGJiOS00Y2IwLTllZTEtYjE2MGI3OTQ0Y2U0IiwidCI6IjU3YzE3Y2FmLWM1MDAtNGZmYy05OTc2LWY4NWZjNmM2NmQ0NyIsImMiOjR9" 
+                                target="_blank" 
+                                class="project-btn">
+                                VER DETALLES
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>PROYECTO DE INVESTIGACIÓN AVANZADA</h3>
+                            <p>Investigación académica exhaustiva aplicando metodologías rigurosas y análisis profundo de datos para generar conocimiento significativo en el área de especialización.</p>
+                            <div class="project-tags">
+                                <span class="tag">INVESTIGACIÓN</span>
+                                <span class="tag">ANÁLISIS</span>
+                                <span class="tag">METODOLOGÍA</span>
+                            </div>
+                        </div>
+
+                          
+                <div class="project-card">
+                    <div class="project-number">02</div>
+                    <div class="project-image">
+                        <img src="Fotos/Proyecto2.jpg" alt="Proyecto de Desarrollo">
+                        <div class="project-overlay">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiODVjNjQ1MDAtYmI2ZS00MWY1LTg2Y2QtNTg5MjQ4OWE1NjZmIiwidCI6IjU3YzE3Y2FmLWM1MDAtNGZmYy05OTc2LWY4NWZjNmM2NmQ0NyIsImMiOjR9" 
+                            target="_blank" 
+                            class="project-btn">
+                            VER DETALLES
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DESARROLLO DE SOLUCIÓN TÉCNICA</h3>
+                        <p>Proyecto práctico donde se implementaron conocimientos teóricos en un contexto real, desarrollando una solución innovadora y funcional.</p>
+                        <div class="project-tags">
+                            <span class="tag">DESARROLLO</span>
+                            <span class="tag">INNOVACIÓN</span>
+                            <span class="tag">IMPLEMENTACIÓN</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-number">03</div>
+                    <div class="project-image">
+                        <img src="Fotos/Proyecto3.jpg" alt="Proyecto Colaborativo">
+                        <div class="project-overlay">
+                            <a href="https://sites.google.com/view/informacion1-hnrp-dashboard/p%C3%A1gina-principal" 
+                            target="_blank" 
+                            class="project-btn">
+                            VER DETALLES
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>LIDERAZGO EN PROYECTO COLABORATIVO</h3>
+                        <p>Dirección y coordinación de equipo multidisciplinario, demostrando habilidades de liderazgo y gestión en ambiente académico profesional.</p>
+                        <div class="project-tags">
+                            <span class="tag">LIDERAZGO</span>
+                            <span class="tag">GESTIÓN</span>
+                            <span class="tag">COLABORACIÓN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notebook Section -->
+    <section id="cuaderno" class="notebook">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">CUADERNO DE APRENDIZAJE</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Documentación sistemática del proceso formativo</p>
+                        
+                <div class="tab-grid">
+                    <div class="tab-container">
+                        <a href="semana1.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">01</span>
+                        </a>
+                    </div>  
+
+                    <div class="tab-container">
+                        <a href="semana2.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">02</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana3.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">03</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana4.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">04</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana5.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">05</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana6.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">06</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana7.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">07</span>
+                        </a>
+                    </div>
+                        
+                    <div class="tab-container">
+                        <a href="semana8.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">08</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana9.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">09</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana10.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">10</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana11.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">11</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana12.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">12</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana13.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">13</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana14.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">14</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana15.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">15</span>
+                        </a>
+                    </div>
+
+                    <div class="tab-container">
+                        <a href="semana16.html" class="tab-button" target="_blank">
+                            <span class="tab-text">SEMANA</span>
+                            <span class="tab-number">16</span>
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+            
+
+    <!-- Bibliography Section -->
+    <section id="bibliografia" class="bibliography">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">REFERENCIAS BIBLIOGRÁFICAS</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Fuentes académicas y recursos especializados</p>
+            </div>
+            <div class="bibliography-content">
+                <div class="bibliography-section">
+                    <h3>LITERATURA ACADÉMICA</h3>
+                    <div class="bibliography-list">
+                        <div class="bibliography-item">
+                            <div class="citation-number">01</div>
+                            <div class="citation-content">
+                                <p><strong>Ortega Prieto, D.</strong> (2023). <em>Consejos para crear un portafolio académico efectivo y útil</em>. Estrategias de Estudio.</p>
+                            </div>
+                        </div>
+                        <div class="bibliography-item">
+                            <div class="citation-number">02</div>
+                            <div class="citation-content">
+                                <p><strong>Vargas, B.</strong> (2024). <em>Portafolio académico: Todo lo que necesitas saber.</em>. Cyberstream.</p>
+                            </div>
+                        </div>
+                        <div class="bibliography-item">
+                            <div class="citation-number">03</div>
+                            <div class="citation-content">
+                                <p><strong>Pineda Gutiérrez, A. S.</strong> (2023). <em>Metodología para la elaboración y presentación de los documentos académicos que integran el portafolio de investigación.</em>. Academia.edu.</p>
+                            </div>
+                        </div>
+                         <div class="bibliography-item">
+                            <div class="citation-number">04</div>
+                            <div class="citation-content">
+                                <p><strong>Rosario Paulino, J. R.</strong> (2023). <em>Desarrollo de un portafolio de literatura.</em>. EdTK Educación.</p>
+                            </div>
+                        </div>
+                         <div class="bibliography-item">
+                            <div class="citation-number">05</div>
+                            <div class="citation-content">
+                                <p><strong>Moreno Díaz, A.</strong> (1995). <em>Ejemplos de portafolio docente: Reflexión y mejora continua en la enseñanza.</em>. Zamorano Digital.</p>
+                            </div>
+                        </div>
+                         <div class="bibliography-item">
+                            <div class="citation-number">06</div>
+                            <div class="citation-content">
+                                <p><strong>Yances Córdoba, L.</strong> (2013). <em>Guía metodológica para el diseño y presentación de trabajos de investigación.</em>. Universidad Distrital Francisco José de Caldas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>PORTAFOLIO ACADÉMICO</h3>
+                    <p>Excelencia en formación profesional</p>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2025 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 14 - Cuaderno de Aprendizaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h1 {
+            color: #FFD700;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .section {
+            margin-bottom: 2rem;
+            background-color: #111;
+            padding: 1.5rem;
+            border-left: 5px solid #FFD700;
+        }
+
+        .section h2 {
+            color: #FFD700;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section p {
+            line-height: 1.6;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background-color: #FFD700;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .download-btn:hover {
+            background-color: #e6c200;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Semana 14: Microservicios en Django</h1>
+
+        <div class="section">
+            <h2>Descripción de los temas aprendidos</h2>
+            <p>
+                Durante la décima cuarta semana se profundizó en la arquitectura de microservicios como una evolución del desarrollo monolítico tradicional. Se presentó Django como una herramienta viable para el desarrollo de servicios independientes y desacoplados que interactúan entre sí de forma modular y escalable.
+
+Los principales contenidos abordados fueron:
+
+Introducción a los microservicios:
+
+Se comprendió el paradigma de microservicios como un enfoque arquitectónico donde cada componente de una aplicación es desarrollado, desplegado y escalado de forma independiente.
+
+Se analizaron sus beneficios frente a las arquitecturas monolíticas, incluyendo la mejora en la mantenibilidad, escalabilidad y tolerancia a fallos.
+
+Diseño y construcción del primer microservicio con Django:
+
+Se creó un microservicio básico empleando Django y Django REST Framework, enfocado en un único dominio funcional.
+
+Se aplicaron principios de separación de responsabilidades y diseño modular.
+
+Comunicación entre microservicios:
+
+Se exploraron mecanismos para la interoperabilidad entre servicios, como llamadas HTTP mediante requests, colas de mensajes y eventos asincrónicos.
+
+Se discutieron buenas prácticas para asegurar la confiabilidad y consistencia de la comunicación distribuida.
+
+Gestión de bases de datos en microservicios:
+
+Se abordó el concepto de base de datos por servicio, donde cada microservicio administra su propio esquema y motor de persistencia, garantizando independencia lógica y física.
+
+Implementación de microservicios con Docker y Kubernetes:
+
+Se introdujo Docker como herramienta de contenerización para empacar microservicios con todas sus dependencias.
+
+Se presentaron los conceptos fundamentales de Kubernetes para la orquestación, despliegue y escalado automático de microservicios en clústeres.
+
+Protección y monitoreo:
+
+Se estudiaron estrategias para asegurar los microservicios, incluyendo autenticación basada en tokens y control de acceso.
+
+Se enfatizó el uso de herramientas de observabilidad y monitoreo, como Prometheus y Grafana, para medir métricas, detectar errores y gestionar el rendimiento.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Qué aprendí?</h2>
+            <p>
+                Aprendí a diseñar e implementar microservicios desacoplados utilizando Django, así como a contenerizarlos y orquestarlos mediante Docker y Kubernetes. Asimismo, comprendí cómo asegurar su comunicación, gestionar bases de datos distribuidas y aplicar buenas prácticas de seguridad y monitoreo.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>¿Cómo lo aprendí?</h2>
+            <p>
+                El aprendizaje fue altamente práctico, desarrollando microservicios individuales e interconectándolos en un entorno controlado. Se realizaron laboratorios con despliegues locales usando Docker y simulaciones de clústeres, permitiendo una comprensión integral de la infraestructura moderna basada en servicios.
+            </p>
+        </div>
+
+        <a class="download-btn" href="Archivos/Semana14.pdf" download>Descargar clase de la semana</a>
+    </div>
+</body>
+</html>
